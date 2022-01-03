@@ -1,35 +1,45 @@
 body
 {
     text-align: center;
-    background-color: aqua;
+    z-index: 10;
+    /*height: 100%;
+    width: 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
 }
 .container{
-  background-color: mediumaquamarine;  
+  z-index: 10; 
 }
 #app {
-    background-color: aliceblue;
+    z-index: 10;
 }
 
 #myCarousel
 {
     background-color: red;
+    z-index: 10;
 }
 
 #mycarousel
 {
     background-color: red;
+    z-index: 10;
 }
 
 #myCarousel img
 {
     height: 300px;
     margin-top: 35px;
+    z-index: 10;
 }
 
 #mycarousel img
 {
     height: 300px;
     margin-top: 35px;
+    z-index: 10;
 }
 
 .carousel-inner p
@@ -37,8 +47,83 @@ body
     margin-top: 15px;
     color : white;
     font-size: 20px;
+    z-index: 10;
 }
 
 hr {
     color: black;
+    z-index: 10;
+}
+
+/*#a {
+    z-index: -100;
+    position: fixed;
+    height: 100%;
+    width: 1000px;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#b {
+    z-index: -100;
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}*/
+
+h1 {
+    background-color: antiquewhite;
+}
+
+/*html {
+    height: 100%;
+    width: 100%;
+}*/
+
+#bg {
+    background-image: url("Picture\ 1.jpg") , url("5.jpg");
+    background-position: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -100;
+    
+    height: 100%;
+    
+    
+    
+}
+
+.menu {
+    list-style: none;
+    top: 0px;
+    position: fixed;
+    right: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    align-self: center;
+    text-align: center;
+    
+}
+
+.link{
+    float: left;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+    
+}
+
+.link:hover {
+    font-size: 25px;
+    text-decoration: underline;
+    background-color: aqua;
+    text-align: center;
 }

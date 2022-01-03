@@ -7,30 +7,62 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
-
-    <body>
+    
+    <body id="bg" class="bg" background="">
         <center>
-            <section id="transport" class="transport">
+            <h1 id="title" class="title">
+                <font size="100" face="sans">
+                    <marquee scrollamount="25">
+                        <b>
+                            <br>
+                            A Guide to W Hotel©
+                        </b>
+                    </marquee>
+                </font>
+            </h1>
+
+            <h1>
+                <center>
+                    Transport
+                </center>
+            </h1>
+            <div class="line"></div>
+            <hr>
+            
+            <div id="MYCarousel" class="carousel slide" height="500">
                 <div class="container">
-                    <h1>
-                        <center>
-                            Transport
-                        </center>
-                    </h1>
-                    <div class="line"></div>
-                    <hr>
-                    <br>
-                    <br>
-                    <br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.81348221674324!2d103.84243989200318!3d1.2467252969357332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1eb66529ddeb%3A0x9f638a149a81f4f8!2sW%20Hotel%2FQuayside%20Isle!5e0!3m2!1sen!2ssg!4v1640922749108!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-                        Nearest Bus Stop
-                    </iframe>
-                    <br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4167.883694636762!2d103.82721277105884!3d1.2464151037389395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1ea8cd5ad1bd%3A0xd267a5d036dd567d!2sTanjong%20Beach!5e0!3m2!1sen!2ssg!4v1640922924405!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-                        Nearest Tram Stop
-                    </iframe>
+                    <div class="carousel-inner" role="listbox" style=" width:100%; height: 550px !important;">
+                        <div class="item active">
+                            <br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.81348221674324!2d103.84243989200318!3d1.2467252969357332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1eb66529ddeb%3A0x9f638a149a81f4f8!2sW%20Hotel%2FQuayside%20Isle!5e0!3m2!1sen!2ssg!4v1640922749108!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                                Nearest Bus Stop
+                            </iframe>
+                            <P> Nearest Bus Stop</P>
+                        </div>
+
+                        <div class="item">
+                            <br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4167.883694636762!2d103.82721277105884!3d1.2464151037389395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1ea8cd5ad1bd%3A0xd267a5d036dd567d!2sTanjong%20Beach!5e0!3m2!1sen!2ssg!4v1640922924405!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                                Nearest Tram Stop
+                            </iframe>
+                            <p> Nearest Tram Stop</p>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#MYCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+            
+                        <a class="right carousel-control" href="#MYCarousel" data-slide="next">
+                            <!--provide class "glyphicon glyphicon-chevron-right" for the span tag below-->
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+
+
+                    </div>
                 </div>
-            </section>
+            </div>
+                    
             <br>
             <br>
             <br>
@@ -173,6 +205,12 @@
                     </center>
                 </div>
             </div>
+
+            <ul class="menu">
+                <li class="link"> <a href="https://www.marriott.com/hotels/travel/sinwh-w-singapore-sentosa-cove/">More About W Hotel</a></li>
+                <li class="link"> <a href="https://g.page/wsingapore?share">Maps</a></li>
+            </ul>
+            <h1> A Guide to W Hotel©</h1>
         </center>
     </body>
 </html>
